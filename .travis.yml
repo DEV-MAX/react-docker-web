@@ -18,7 +18,8 @@ deploy:
   bucket_name: "elasticbeanstalk-us-east-2-069617235597"
   bucket_path : "react-web"
   on:
-    branch: "master"
-  access_key_id: $AWS_ELASTIC_KEY
+    branch: 
+    master
+  access_key_id: $AWS_KEY_ID
   secret_access_key:
-    secure: "$AWS_ELASTIC_ACCESS"
+    secure: "$AWS_KEY_VALUE"
